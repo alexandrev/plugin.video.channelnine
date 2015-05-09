@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting label="General" type="lsep" />
+    </category>
+    <category label="Advanced">
+    </category>
+</settings>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.channelnine" name="Channel9" version="0.1.0" provider-name="alexandrev">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en</language>
+        <website><![CDATA[https://github.com/alexandrev/plugin.video.channelnine]]></website>
+        <forum></forum>
+        <source><![CDATA[https://github.com/alexandrev/plugin.video.channelnine]]></source>
+        <language>en</language>
+        <license><![CDATA[Non commercial. See https://github.com/alexandrev/plugin.video.channelnine/blob/master/LICENSE]]></license>
+        <summary><![CDATA[Channel9: MSDN Videos]]></summary>
+        <description>Videos from MSDN Channel9 to keep in touch with all the news in the Microsoft Environment using a technical way </description>
+    </extension>
+</addon>
