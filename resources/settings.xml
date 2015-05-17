@@ -2,7 +2,10 @@
 <settings>
     <category label="General">
         <setting label="General" type="lsep" />
+           <setting id="videoQuality" type="select" default="Any" label="Video Quality" values="Any|High|Medium|Mobile" />
     </category>
     <category label="Advanced">
+        <setting label="Category" type="lsep" />
+            <setting label="Azure" type="bool" id="azure" default="true"/>
     </category>
 </settings>
